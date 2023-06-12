@@ -12,7 +12,6 @@ function checkGoldenRatio(x,y) {
 // console.log("The Squre Root of 5 is: ", Math.sqrt(5));
 // console.log("The Sum of Sqrt(5) + 1 is: ", Math.sqrt(5) + 1);
 
-
 // console.log("The Golden Ration: ",((1 + Math.sqrt(5)) / 2).toFixed(6));
 function getOtherNum(num) {
     const phi = (1 + Math.sqrt(5)) / 2;
