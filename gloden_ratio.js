@@ -1,4 +1,4 @@
-// This function checks if the ratio between two values is approximatley equal the golden ratio.
+// Checks if the ratio between two values is approximatley equal the golden ratio.
 function checkGoldenRatio(x,y) {
   const goldenRatio = ((1 + Math.sqrt(5)) / 2).toFixed(6); // calculate the golden ratio
   const result = x > y ? (x / y).toFixed(6) : (y / x).toFixed(6); // divide the input number by the golden ratio
