@@ -20,4 +20,3 @@ function getOtherNum(num) {
 
 console.log("\n", getOtherNum(10));
 console.log(checkGoldenRatio(10, 16.18033988749895));
-
