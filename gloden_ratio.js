@@ -3,11 +3,8 @@ function checkGoldenRatio(x,y) {
   const goldenRatio = ((1 + Math.sqrt(5)) / 2).toFixed(6); // calculate the golden ratio
   const result = x > y ? (x / y).toFixed(6) : (y / x).toFixed(6); // divide the input number by the golden ratio
 
-  if (goldenRatio === result) {
-      return result;
-  }else {
-      return null;
-  }
+  if (goldenRatio === result) { return result; }
+  else { return null; }
 }
 
 // console.log("The Squre Root of 5 is: ", Math.sqrt(5));
